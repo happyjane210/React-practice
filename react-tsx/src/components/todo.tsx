@@ -92,7 +92,7 @@ const Todo = () => {
       )}
 
       <ul className="list-group list-group-flush mt-3">
-        {todoList.length == 0 && (
+        {todoList.length === 0 && (
           <li className="list-group-item">THERE IS NO DATA.</li>
         )}
 

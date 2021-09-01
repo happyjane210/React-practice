@@ -1,5 +1,3 @@
-import React from "react";
-
 interface AlertProp {
   message: string;
   variant: string;
